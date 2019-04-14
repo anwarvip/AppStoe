@@ -80,6 +80,7 @@ p {
 }
 .margin-100 {
     margin-bottom: 100px !important;
+    /* padding: 5px; */
 }
 
 
@@ -104,9 +105,10 @@ p {
 
 .btn-lg {
     border-radius: 2px;
-    font-size: 18px;
+    font-size: 5px;
     line-height: 1.33;
-    padding: 14px 22px;
+    padding: 14px 5px;
+    margin-top: -140px;
 }
 
 .btn-primary {
@@ -220,11 +222,11 @@ p {
 
 
 .header-text {
-  padding-top: 175px;
+  padding-top: 20px;
 } 
    
 .header-img {
-  margin-top: -100px;
+  margin-top: -40px;
 }   
    
 #main1 {
@@ -329,7 +331,7 @@ footer {
    Mobile styles
    ========================================================================== */   
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (max-width: 470px) { 
 
 .header-img {
   position: absolute;
@@ -410,4 +412,5 @@ footer {
 @media (min-width: 1200px) and (max-width: 3000px) {
 
 }   
+
 
