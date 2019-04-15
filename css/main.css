@@ -104,6 +104,7 @@ p {
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
+    /* padding: 5px; */
 }
 
 .btn-lg {
@@ -111,8 +112,9 @@ p {
     font-size: 12px;
     line-height: 1.33;
     padding: 15px 10px;
-    /* margin-top: 40px; */
+    margin-top: 00px;
     margin-bottom: 10px;
+    padding-right: 5px;
 }
 
 .btn-primary {
@@ -134,8 +136,10 @@ p {
 
 .btn-secondary {
     background-color: transparent;
-    border-color: #4eacdd;
+    border-color: #84c6e8;
     color: #4eacdd;
+    margin-top: -30px;
+    margin-right: 10px;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open .dropdown-toggle.btn-secondary {
@@ -241,7 +245,9 @@ p {
   min-height: 650px;
   overflow: hidden;
   height: auto;
-  /* border-radius: 50px; */
+  border-radius-: 50px;
+  /* border-bottom-left-radius: 50px; */
+  /* border-bottom-right-radius: 50px; */
 }
 
 .main1-img {
@@ -265,6 +271,8 @@ blockquote {
   height: 650px;
   overflow: hidden;
   border-radius: 8px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 .main2-img {
