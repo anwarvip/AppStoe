@@ -36,6 +36,8 @@ h3 {
   font-size: 30px;
   font-weight: 300;
   color: #ffffff;
+  /* padding-bottom: 10px; */
+  /* padding-top: 10px; */
 }
 
 p {
@@ -58,7 +60,7 @@ p {
     margin-bottom: 20px !important;
 }
 .margin-30 {
-    margin-bottom: 30px !important;
+    margin-bottom: -300px !important;
 }
 .margin-40 {
     margin-bottom: 40px !important;
@@ -79,7 +81,9 @@ p {
     margin-bottom: 90px !important;
 }
 .margin-100 {
-    margin-bottom: 100px !important;
+    margin-bottom: 10px !important;
+    padding: 20px;
+    /* padding-bottom: 200px; */
 }
 
 
@@ -104,9 +108,11 @@ p {
 
 .btn-lg {
     border-radius: 2px;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 1.33;
-    padding: 14px 22px;
+    padding: 15px 10px;
+    /* margin-top: 40px; */
+    margin-bottom: 10px;
 }
 
 .btn-primary {
@@ -136,11 +142,11 @@ p {
     background-color: #4eacdd;
     border-color: #4eacdd;
     color: #ffffff;
-    
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
+    /* margin-bottom: -50px; */
 }
 
 
@@ -171,7 +177,7 @@ p {
    Navigation styles
    ========================================================================== */
 .navbar-inverse {
-    background-color: #4eabde;
+    background-color: #5a5a5a;
     border-color: rgba(0, 0, 0, 0);
 }
 
@@ -213,30 +219,33 @@ p {
    Main styles
    ========================================================================== */
 #header {
-  background: #4eacdd;
-  height: 650px;
+  background: #5a88a0;
+  height: 920px;
   overflow: hidden;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 
 .header-text {
-  padding-top: 175px;
+  padding-top: 20px;
 } 
    
 .header-img {
-  margin-top: -100px;
+  margin-top: -10px;
 }   
    
 #main1 {
   background: #f4f4f4;
-  padding-top: 140px;
+  /* padding-top: 140px; */
   min-height: 650px;
   overflow: hidden;
   height: auto;
+  /* border-radius: 50px; */
 }
 
 .main1-img {
-  position: absolute;
+  position: relative;
   right: 0;
 }
 
@@ -252,14 +261,15 @@ blockquote {
 
 #main2 {
   background: #ffffff;
-  padding-top: 140px;
+  padding-top: 10px;
   height: 650px;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 .main2-img {
     left: 0;
-    margin-left: -300px;
+    margin-left: -100px;
     margin-top: 160px;
     position: absolute;
 }
@@ -329,16 +339,16 @@ footer {
    Mobile styles
    ========================================================================== */   
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (max-width: 450px) { 
 
 .header-img {
   position: absolute;
-  margin-left: -120px;
+  margin-left: 22%;
   left:0;
 }
 
 #main1 {
-   padding-bottom: 170px;
+   /* padding-bottom: 170px; */
 }
 
 .navbar-nav {
@@ -346,10 +356,10 @@ footer {
 }
 
 .main2-img {
-    margin-left: 150px;
-    margin-top: 360px; 
+    margin-left: 1px;
+    margin-top: 360px;
     width: 100%;
-    max-width: 600px;  
+    max-width: 600px;
 }
 	
 }
@@ -359,8 +369,9 @@ footer {
 
 .header-img {
   position: absolute;
-  margin-left: -30px;
+  margin-left: 40px;
   left:0;
+  /* margin-top: -60; */
 }
 
 #main1 {
@@ -410,4 +421,8 @@ footer {
 @media (min-width: 1200px) and (max-width: 3000px) {
 
 }   
+
+
+
+
 
