@@ -177,7 +177,7 @@ p {
    Navigation styles
    ========================================================================== */
 .navbar-inverse {
-    background-color: #4eabde;
+    background-color: #5a5a5a;
     border-color: rgba(0, 0, 0, 0);
 }
 
@@ -219,7 +219,7 @@ p {
    Main styles
    ========================================================================== */
 #header {
-  background: #4eacdd;
+  background: #5a88a0;
   height: 920px;
   overflow: hidden;
   border-bottom-left-radius: 50px;
@@ -343,7 +343,7 @@ footer {
 
 .header-img {
   position: absolute;
-  margin-left: 120px;
+  margin-left: 100px;
   left:0;
 }
 
@@ -369,8 +369,9 @@ footer {
 
 .header-img {
   position: absolute;
-  margin-left: -30px;
+  margin-left: 40px;
   left:0;
+  /* margin-top: -60; */
 }
 
 #main1 {
@@ -420,5 +421,7 @@ footer {
 @media (min-width: 1200px) and (max-width: 3000px) {
 
 }   
+
+
 
 
