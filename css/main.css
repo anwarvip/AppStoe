@@ -223,7 +223,7 @@ p {
    Main styles
    ========================================================================== */
 #header {
-  background: #5a88a0;
+  background: linear-gradient(223.86deg,#ff9681,#2ccbef);
   height: 720px;
   overflow: hidden;
   border-bottom-left-radius: 50px;
@@ -266,7 +266,8 @@ blockquote {
 }
 
 #main2 {
-  background: #ffffff;
+  background: linear-gradient(223.86deg,#dce3eb,#b2deef);
+  /* background: #ffffff; */
   padding-top: 10px;
   height: 650px;
   overflow: hidden;
